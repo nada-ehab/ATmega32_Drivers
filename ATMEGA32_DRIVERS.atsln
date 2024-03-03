@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Atmel Studio Solution File, Format Version 11.00
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MCAL", "MCAL", "{D0586A9D-5DF0-4A8D-B89A-33BD50C4AA98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HAL", "HAL", "{E2EB4E96-53B2-43E0-8DCB-4F6C12FB2EEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LIB", "LIB", "{12170DEB-474D-4FD9-9EBF-8E9CD88811B0}"
+	ProjectSection(SolutionItems) = preProject
+		STD_maths.h = STD_maths.h
+		STD_TYPES.h = STD_TYPES.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DIO_DRIVER", "DIO_DRIVER", "{67540DD6-D323-4051-851A-AFDFE49DDF1E}"
+	ProjectSection(SolutionItems) = preProject
+		DIO_config.h = DIO_config.h
+		DIO_interface.h = DIO_interface.h
+		DIO_private.h = DIO_private.h
+		DIO_program.c = DIO_program.c
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EXTI_DRIVER", "EXTI_DRIVER", "{DD577466-EE44-4ED4-A858-FCA1138509E1}"
+	ProjectSection(SolutionItems) = preProject
+		EXTI_config.h = EXTI_config.h
+		EXTI_interface.h = EXTI_interface.h
+		EXTI_private.h = EXTI_private.h
+		EXTI_program.c = EXTI_program.c
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LCD_DRIVER", "LCD_DRIVER", "{3D3ABAC5-79A1-4B1E-8FD5-2038391B868C}"
+	ProjectSection(SolutionItems) = preProject
+		..\LCD_TASK1\LCD_TASK1\ECUAL\LCD_driver\LCD_config.h = ..\LCD_TASK1\LCD_TASK1\ECUAL\LCD_driver\LCD_config.h
+		..\LCD_TASK1\LCD_TASK1\ECUAL\LCD_driver\LCD_interface.h = ..\LCD_TASK1\LCD_TASK1\ECUAL\LCD_driver\LCD_interface.h
+		..\LCD_TASK1\LCD_TASK1\ECUAL\LCD_driver\LCD_private.h = ..\LCD_TASK1\LCD_TASK1\ECUAL\LCD_driver\LCD_private.h
+		..\LCD_TASK1\LCD_TASK1\ECUAL\LCD_driver\LCD_program.c = ..\LCD_TASK1\LCD_TASK1\ECUAL\LCD_driver\LCD_program.c
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "push_button", "push_button", "{14043F79-5B89-4605-BA5C-560F9CBD8D42}"
+	ProjectSection(SolutionItems) = preProject
+		..\LCD_TASK1\LCD_TASK1\ECUAL\BTN_driver\PUSH_BUTTON_config.h = ..\LCD_TASK1\LCD_TASK1\ECUAL\BTN_driver\PUSH_BUTTON_config.h
+		..\LCD_TASK1\LCD_TASK1\ECUAL\BTN_driver\PUSH_BUTTON_interface.h = ..\LCD_TASK1\LCD_TASK1\ECUAL\BTN_driver\PUSH_BUTTON_interface.h
+		..\LCD_TASK1\LCD_TASK1\ECUAL\BTN_driver\PUSH_BUTTON_private.h = ..\LCD_TASK1\LCD_TASK1\ECUAL\BTN_driver\PUSH_BUTTON_private.h
+		..\LCD_TASK1\LCD_TASK1\ECUAL\BTN_driver\PUSH_BUTTON_program.c = ..\LCD_TASK1\LCD_TASK1\ECUAL\BTN_driver\PUSH_BUTTON_program.c
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7segmant_driver", "7segmant_driver", "{1B7CE156-4ED6-4B88-BE85-5CAB1C9B622C}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\7SEG_CONFG.H = ..\..\..\..\Downloads\7SEG_CONFG.H
+		..\..\..\..\Downloads\7SEG_program.c = ..\..\..\..\Downloads\7SEG_program.c
+		..\..\..\..\Downloads\SEG_interface.h = ..\..\..\..\Downloads\SEG_interface.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LED_driver", "LED_driver", "{8559E392-A3CE-44FA-A7CD-23DB6211A883}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\LED_confg.h = ..\..\..\..\Downloads\LED_confg.h
+		..\..\..\..\Downloads\LED_interface.h = ..\..\..\..\Downloads\LED_interface.h
+		..\..\..\..\Downloads\LED_program.c = ..\..\..\..\Downloads\LED_program.c
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{67540DD6-D323-4051-851A-AFDFE49DDF1E} = {D0586A9D-5DF0-4A8D-B89A-33BD50C4AA98}
+		{DD577466-EE44-4ED4-A858-FCA1138509E1} = {D0586A9D-5DF0-4A8D-B89A-33BD50C4AA98}
+		{3D3ABAC5-79A1-4B1E-8FD5-2038391B868C} = {E2EB4E96-53B2-43E0-8DCB-4F6C12FB2EEF}
+		{14043F79-5B89-4605-BA5C-560F9CBD8D42} = {E2EB4E96-53B2-43E0-8DCB-4F6C12FB2EEF}
+		{1B7CE156-4ED6-4B88-BE85-5CAB1C9B622C} = {E2EB4E96-53B2-43E0-8DCB-4F6C12FB2EEF}
+		{8559E392-A3CE-44FA-A7CD-23DB6211A883} = {E2EB4E96-53B2-43E0-8DCB-4F6C12FB2EEF}
+	EndGlobalSection
+EndGlobal
